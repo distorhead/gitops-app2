@@ -1,0 +1,14 @@
+configVersion: 1
+project: quickstart-application
+---
+image: vote
+dockerfile: Dockerfile
+context: vote
+---
+image: result
+dockerfile: Dockerfile
+context: result
+---
+image: worker
+dockerfile: Dockerfile
+context: worker
