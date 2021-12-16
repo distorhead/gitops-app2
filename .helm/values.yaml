@@ -1,0 +1,23 @@
+{
+  "global": {
+    "werf": {
+      "name": "quickstart-application",
+      "version": "dev"
+    }
+  },
+  "werf": {
+    "image": {
+      "result": "ghcr.io/distorhead/quickstart-application:78557a576585e3acba6868f3d28b70b601affb6364e377918b355f8b-1632930732804",
+      "vote": "ghcr.io/distorhead/quickstart-application:08900098c0a1a06586f8909a6b77927db90bbd21b5a089330ccd6e35-1632993293005",
+      "worker": "ghcr.io/distorhead/quickstart-application:f5eab243c67a973041e7f92ee9f5ff39d0d671536814a10bac957e82-1633078387596"
+    },
+    "name": "quickstart-application",
+    "repo": "ghcr.io/distorhead/quickstart-application",
+    "tag": {
+      "result": "78557a576585e3acba6868f3d28b70b601affb6364e377918b355f8b-1632930732804",
+      "vote": "08900098c0a1a06586f8909a6b77927db90bbd21b5a089330ccd6e35-1632993293005",
+      "worker": "f5eab243c67a973041e7f92ee9f5ff39d0d671536814a10bac957e82-1633078387596"
+    },
+    "version": "dev"
+  }
+}

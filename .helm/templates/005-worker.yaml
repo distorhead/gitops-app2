@@ -19,3 +19,4 @@ spec:
       containers:
       - image: {{ .Values.werf.image.worker }}
         name: worker
+

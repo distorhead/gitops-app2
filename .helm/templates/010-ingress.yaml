@@ -26,3 +26,4 @@ spec:
             name: result
             port:
               number: 80
+
